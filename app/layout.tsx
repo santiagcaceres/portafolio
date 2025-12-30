@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Tu Nombre - Desarrollador Full Stack",
+  title: "Santiago Cáceres - Desarrollador Full Stack",
   description: "Portafolio profesional de desarrollo web. Especializado en React, Next.js, y tecnologías modernas.",
   generator: "v0.app",
   icons: {
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
         url: "/icon.svg",
         type: "image/svg+xml",
       },
+      "/favicon.svg", // Updated code here
     ],
     apple: "/apple-icon.png",
   },
